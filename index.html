@@ -1,0 +1,132 @@
+<!--DOCTYPE html-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@1,200&family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Inconsolata", monospace;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .img {
+        display: inline;
+        width: 65px;
+        height: 60px;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 5px;
+        padding: 4px;
+      }
+
+      a {
+        /* color: red; */
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: white;
+      }
+
+      h1 {
+        text-align: center;
+        position: relative;
+        top: 142px;
+        padding: 22px 0px;
+      }
+
+      h1 a {
+        font-size: 2.2rem;
+      }
+
+      h1 a:hover {
+        font-size: 2.3rem;
+        color: red;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        font-size: 1.4rem;
+        color: red;
+        text-decoration: underline;
+      }
+
+      .active {
+        color: red;
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        /* font-family: 'Azeret Mono', monospace; */
+        font-size: 16.74px;
+        font-weight: 600;
+        border: 2.5px dashed #99f;
+        border-style: dashed;
+        position: absolute;
+        bottom: 22px;
+        margin-right: 8px;
+        padding: 8px 0px;
+      }
+      button{
+          border: 2px solid #99f;
+          border-radius: 12px;
+          background-color: black;
+          color: #99d;
+          padding: 8px;
+          
+          /* cursor: pointer; */
+      }
+    </style>
+  </head>
+
+  <body id="body">
+    <header>
+      <div class="logo">
+        <img src="ps.jpg" alt="" class="img" />
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active color">Home</a></li>
+          <li><a href="Links.html" class="color">Links</a></li>
+          <li><a href="About.html" class="color">About</a></li>
+          <li><a href="Contact.html" class="color">Contact</a></li>
+        </ul>
+        <center><button id="btn">Light Mode</button></center>
+      </nav>
+    </header>
+    <h1><a href="Possibility1.html" class="color">Possibility 1</a></h1>
+    <h1><a href="Possibility2.html" class="color">Possibility 2</a></h1>
+
+    <footer>
+      Some thing are to be belived as they are, the time will itself reveal the
+      proofs
+    </footer>
+    <script src="new.js"></script>
+  </body>
+</html>
+
